@@ -1,0 +1,46 @@
+.shop-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.shop-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.shop-beer {
+  width: 405px;
+  height: 619px;
+  flex-shrink: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shop-beer img {
+  width: 100%;
+  height: auto;
+}
+
+.shop-beer h3 {
+  color: var(--noir, #000);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 391px;
+  margin: 5px auto 10px auto;
+}
+
+.shop-beer p {
+  color: var(--noir, #000);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline;
+}
