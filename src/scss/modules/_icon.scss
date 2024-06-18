@@ -1,3 +1,21 @@
 .icon {
   height: 30px;
 }
+
+.icon-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.icon-tiktok {
+  width: 59px;
+  height: 59px;
+  flex-shrink: 0;
+}
+
+.icon-insta {
+  width: 58px;
+  height: 84px;
+  flex-shrink: 0;
+}
