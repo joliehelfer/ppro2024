@@ -7,7 +7,7 @@
   height: 83px;
   border-radius: 39px;
   border: 3px solid var(--jaune, #dfaa4f);
-  background: transparent; /* Pour avoir un fond transparent, si désiré */
+  background: transparent;
   color: var(--jaune, #dfaa4f);
   text-align: center;
   font-family: "Suez One", serif;
@@ -15,15 +15,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  cursor: pointer; /* Pour changer le curseur en pointeur lors du survol */
+  cursor: pointer;
 }
 
 .button-voir-plus:hover {
-  background: var(--jaune, #dfaa4f); /* Changer la couleur de fond au survol */
-  color: var(
-    --beige-clair,
-    #f4f0e3
-  ); /* Changer la couleur du texte au survol */
+  background: var(--jaune, #dfaa4f);
+  color: var(--beige-clair, #f4f0e3);
 }
 
 .button-packs-container {
@@ -53,4 +50,33 @@
 .button-packs:hover {
   background: var(--jaune, #dfaa4f);
   color: var(--beige-clair, #f4f0e3);
+}
+
+.button-blonde,
+.button-brune,
+.button-ipa {
+  width: 235px;
+  height: 83px;
+  border-radius: 39px;
+  background: #f4f0e3;
+  text-align: center;
+  font-family: "Suez One", serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  border: none;
+  color: #000;
+}
+
+.button-blonde {
+  color: #dfa94f;
+}
+
+.button-brune {
+  color: #6d2d1f;
+}
+
+.button-ipa {
+  color: #6bb393;
 }

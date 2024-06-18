@@ -1,18 +1,44 @@
 .card-our-beer {
-  flex-direction: row;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
 }
 
 .card-our-beer-blonde {
-  display: flex;
-  flex-direction: row;
+  background-color: #dfa94f;
 }
 
 .card-our-beer-brune {
-  display: flex;
-  flex-direction: row;
+  background-color: #6d2d1f;
 }
 
 .card-our-beer-ipa {
-  display: flex;
-  flex-direction: row;
+  background-color: #6bb393;
+}
+
+.card-our-beer p {
+  font-family: "Suez One", serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card-our-beer-blonde .beer-mockup {
+  right: -150px;
+}
+
+.card-our-beer-brune .beer-mockup {
+  left: -150px;
+}
+
+.card-our-beer-ipa .beer-mockup {
+  right: -150px;
+}
+
+.card-our-beer p {
+  font-family: "Source Sans 3";
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f4f0e3;
 }

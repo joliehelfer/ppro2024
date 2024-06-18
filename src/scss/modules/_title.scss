@@ -5,9 +5,18 @@
 .title-our-beer {
   display: flex;
   justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .title-shop {
   display: flex;
   justify-content: center;
+}
+
+.title-beer-history {
+  font-family: "Suez One", serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f4f0e3;
 }
