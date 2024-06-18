@@ -1,3 +1,31 @@
+.button-history {
+  margin-top: 20px;
+}
+
+.button-voir-plus {
+  width: 235px;
+  height: 83px;
+  border-radius: 39px;
+  border: 3px solid var(--jaune, #dfaa4f);
+  background: transparent; /* Pour avoir un fond transparent, si désiré */
+  color: var(--jaune, #dfaa4f);
+  text-align: center;
+  font-family: "Suez One", serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer; /* Pour changer le curseur en pointeur lors du survol */
+}
+
+.button-voir-plus:hover {
+  background: var(--jaune, #dfaa4f); /* Changer la couleur de fond au survol */
+  color: var(
+    --beige-clair,
+    #f4f0e3
+  ); /* Changer la couleur du texte au survol */
+}
+
 .button-packs-container {
   display: flex;
   justify-content: center;
@@ -19,7 +47,7 @@
   padding: 10px 20px;
   cursor: pointer;
   transition: background 0.3s ease;
-  margin-bottom: 40px;
+  margin-bottom: 68px;
 }
 
 .button-packs:hover {
