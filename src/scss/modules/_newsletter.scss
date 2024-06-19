@@ -7,10 +7,18 @@
   border-radius: 27px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0 15px;
+  margin: 0 auto 15px auto;
 }
 
-.newsletter-bar {
-  margin-top: 20px;
-  width: 345px;
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
 }

@@ -3,15 +3,20 @@ footer {
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
+  text-align: center;
 }
 
 .footer-text {
-  margin-top: 3px;
-  color: var(--noir, #000);
-  font-family: "Source Sans 3", sans-serif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  text-align: center;
+  margin: 5px 0;
+}
+
+.newsletter-text,
+.adress-title,
+.footer-text,
+.politique-text,
+.copyright {
+  color: var(--noir, #000);
+  font-family: "Source Sans 3";
 }
