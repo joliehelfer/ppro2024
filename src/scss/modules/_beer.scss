@@ -9,5 +9,11 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 150px;
+  width: 614px;
+}
+
+.beer-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
